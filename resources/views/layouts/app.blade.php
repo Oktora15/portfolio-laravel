@@ -109,6 +109,23 @@
     ">
         Kontak
     </a>
+    <a href="/proyek" style="
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    ">
+        Proyek
+    </a>
+    <a href="/dashboard/1" style="
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    ">
+        Dashboard
+    </a>
+    
 </nav>
 
     @yield('content')
