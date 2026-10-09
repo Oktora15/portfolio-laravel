@@ -17,7 +17,7 @@ Route::get('/kontak', function () {
 Route::get('/proyek', function () {
     return view('proyek');
 });
-Route::get('/dashboard/{id}', function ($id) {
+Route::get('/dashboard/{id}', function () {
     return view('dashboard');
 });
 
